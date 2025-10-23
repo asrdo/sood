@@ -1,0 +1,75 @@
+/* Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font */
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "HEXP" 0;
+
+}
+
+body {
+    background-color: #202020;
+}
+
+img {
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+}
+
+main {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+
+/*================
+Typograhpy
+================*/
+
+h1 {
+    font-size: clamp(1.8rem, calc(1vw + 1.5rem), 3rem);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: clamp(1rem, calc(1vw + 1.2rem), 2rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+
+p {
+    text-align: center;
+    font-size: clamp(0.8rem, calc(0.2vw + 1rem), 2rem);
+    font-weight: 300;
+}
+
+
+/*================
+Layout
+================*/
+
+main .container {
+    min-height: 60vh;
+}
+
+.container {
+    max-width: 60%;
+    min-width: 40%;
+    margin: 0 auto;
+
+    color: white;
+    text-align: center;
+}
